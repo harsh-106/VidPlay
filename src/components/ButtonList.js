@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { setCategory } from '../utils/appSlice';
 
 
-const buttonList = ["All", "Shorts", "Live",  "Javascript", "Java", "Live" , "Music", "Vlogs" , "Podcasts", "Trailer", "News", "Gaming", "Tech", "Cricket", "Comedy", "Thriller", "New to you" ]
+const buttonList = ["All", "Shorts", "Live",  "Javascript", "Java", "Music", "Vlogs" , "Podcasts", "Trailer", "News", "Gaming", "Tech", "Cricket", "Comedy", "Thriller", "New to you" ]
 const ButtonList = () => {
   const[active, setActive] = useState("All");
   const dispatch = useDispatch();

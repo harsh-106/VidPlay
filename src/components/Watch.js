@@ -10,6 +10,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { LuSendHorizonal } from "react-icons/lu";
 import LiveChat from "./LiveChat";
 import { useDispatch } from "react-redux";
+import { RxDividerVertical } from "react-icons/rx";
 import { setMessage } from "../utils/ChatSlice";
 const Watch = () => {
   const [singleVideo, setSingleVideo] = useState("");
@@ -73,15 +74,16 @@ const Watch = () => {
             </button>
           </div>
           <div className="flex items-center w-[38%] justify-between mt-2">
-            <div className=" flex items-center cursor-pointer bg-gray-400 px-4 py-2 rounded-full">
-              <AiOutlineLike size={"21px"} className="mr-5" />
-              <AiOutlineDislike size={"21px"} />
+            <div className=" flex items-center cursor-pointer bg-gray-200 px-4 py-2 rounded-full">
+              <AiOutlineLike size={"21px"} className="mr-5"   />
+              
+              <AiOutlineDislike size={"21px"} className="mt-1" />
             </div>
-            <div className=" flex items-center cursor-pointer bg-gray-400 px-4 py-2 rounded-full">
+            <div className=" flex items-center cursor-pointer bg-gray-200 px-4 py-2 rounded-full">
               <PiShareFatLight size={"21px"} className="mr-2" />
               <span>Share</span>
             </div>
-            <div className=" flex items-center cursor-pointer bg-gray-400 px-4 py-2 rounded-full">
+            <div className=" flex items-center cursor-pointer bg-gray-200 px-4 py-2 rounded-full">
               <GoDownload size={"21px"} />
               <span>Download</span>
             </div>
