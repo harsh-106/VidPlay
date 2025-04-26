@@ -97,7 +97,7 @@ const Watch = () => {
             <LiveChat />
         </div>
         <div className=" flex items-center justify-between border-t p-2">
-            <div className="flex items-center w-[92%] border border-green-600">
+            <div className="flex items-center w-[92%]">
                 <div>
                 <Avatar src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/e76d4296-43f3-493b-9d50-f8e5c142d06c/2117667014/boys-profile-picture-screenshot.png" size={30} round={true} className="cursor-pointer " />
                 </div>

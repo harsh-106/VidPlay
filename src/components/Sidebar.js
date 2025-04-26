@@ -17,11 +17,7 @@ const sidebarItem = [
     icons: <SiYoutubeshorts size={"24px"} />,
     title: "Shorts",
   },
-  {
-    icons: <MdOutlineSubscriptions
-      size={"24px"} />,
-    title: "Subscriptions",
-  },
+
 ];
 const Sidebar = () => {
   const navigate = useNavigate();
